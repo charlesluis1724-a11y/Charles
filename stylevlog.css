@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    color: #b3f401;
+    padding: 20px;
+
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    background-color: #003008b2;
+}
+.nav a {
+    color: #b3f401;
+    text-decoration: none;
+}
+.nav ul, nav li{
+    letter-spacing: 2px;
+    font-size: small;
+    font-family: montserrat;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.nav_center {
+    color: #b3f401;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+nav .nav_right {
+    justify-content: flex-end;  
+    display: inline-grid;
+}
+.nav a:hover{
+    background-color: #d90046;
+}
+
+
+
+.nav a {
+    color: #b3f401;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav ul, nav li{
+    letter-spacing: 2px;
+    font-size: small;
+    font-family: montserrat;
+    display: inline-block;
+}
+.nav_center {
+    color: #b3f401;
+    text-align: center;
+    text-decoration: none;
+    padding-inline-end: 40px;
+}
+nav .nav_right {
+    justify-content: flex-end;  
+    display: inline-grid;
+    padding-inline-end: 40px;
+}
+
+.after_nav {
+    color: #b3f401;
+    height: 30px;
+    background-color: #003008b2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+.after_nav1 {
+    padding-top: 7.5px;
+}
+
+body {
+    /* background-image: url(/images1/26315dd6d8b9972744f4d854f4d5b70d.jpg); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    background-color: #0d150e;
+    line-height: normal;
+}
+
+.afterbanner {
+    height: 600px;
+}
+
+.carousel-item {
+    margin-bottom: 50px;
+}
+
+.centerimage {
+    display: flex;
+    width: 100%;
+}
+
+.blogheader {
+    color: #b3f401;
+    display: flex;
+    justify-content: center;
+    font-family: montserrat;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 100px;
+}
+
+.content {
+    padding: 50px;
+}
+.main {
+    border-radius: 30px;
+    margin: 0px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.main1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: #b3f401;
+}
+
+.main1:hover {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: #ededed;
+}
+    
+
+.content a {
+    
+}
+
+.image {
+    padding: 30px;
+    width: 300px;
+}
